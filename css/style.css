@@ -1,0 +1,137 @@
+@import url(reset.css);
+
+#wrapper {
+    width: 1024px;
+    height: 1800px;
+    margin: 0 auto;
+    outline: 1px solid #cccccc;
+}
+
+#topline {
+    width: 1024px;
+    height: 18px;
+    background-image: url("../images/topline.png");
+    background-repeat: repeat-x;
+    background-color: #cccccc;
+}
+/*Beginning header block*/
+#header {
+    height: 157px;
+    outline: 1px solid #cc0000;
+    position: relative;
+}
+
+#logo {
+    width: 255px;
+    height: 85px;
+    background-image: url("../images/logo.png");
+    background-repeat: no-repeat;
+    outline: 1px solid #cccc00;
+    position: absolute;
+    left: 55px;
+    top: 30px;
+}
+
+#logo a {
+    cursor: pointer;
+    display: block;
+    height: 85px;
+}
+
+#faq {
+    position: absolute;
+    width: 82px;
+    height: 164px;
+    outline: 1px solid #cc00cc;
+    background-image: url("../images/faq.png");
+    background-repeat: no-repeat;
+    left: 901px;
+    top: -18px;
+}
+
+#faq a {
+    display: block;
+    height: 164px;
+    cursor: pointer;
+}
+
+#nav {
+    position: absolute;
+    width: 520px;
+    height: 30px;
+    top: 56px;
+    left: 377px;
+    /*outline: 1px solid #cccccc;*/
+
+}
+
+#nav li {
+    float: left;
+    margin-right: 27px;
+    /*outline: 1px solid #cc0000;*/
+}
+
+#nav li a {
+
+    text-decoration: none;
+    font: 16px Arial,sans-serif;
+    color: #3f3f3f;
+}
+
+
+#nav li a.active, #nav li a:hover{
+    color: #2c789c;
+}
+
+/*End of header block*/
+/*Beginning people block*/
+
+#people {
+    position: relative;
+    height: 404px;
+    outline: 1px solid #000000;
+    background-image: url("../images/peopleBg.jpg");
+    background-repeat: no-repeat;
+    background-position: 66px 42px;
+    z-index: 2;
+}
+
+#peoplefoto {
+    position: absolute;
+    background-image: url("../images/peopleFoto.jpg");
+    background-repeat: no-repeat;
+    width: 380px;
+    height: 404px;
+    left: 595px ;
+    top: 0;
+    outline: 1px solid #cc0000;
+    z-index: 3;
+}
+
+#people h1 {
+    font: bold 20px Arial, sans-serif;
+    text-transform: uppercase;
+    color: #1d1e1b;
+    padding-top: 213px;
+    padding-left: 113px;
+}
+
+#people p {
+    font: 14px Arial, sans-serif;
+    color: #2c789c;
+    padding-top: 28px;
+    padding-left: 116px;
+}
+
+#peopleBg {
+    height: 92px;
+    width: 1024px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background-image: url("../images/forpeopleBg.png");
+    background-repeat: repeat-y;
+    outline: 1px solid #ccff00;
+    z-index: 1;
+}
+
