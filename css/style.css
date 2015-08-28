@@ -12,7 +12,7 @@
     height: 18px;
     background-image: url("../images/topline.png");
     background-repeat: repeat-x;
-    background-color: #cccccc;
+      background-color: #cccccc;
 }
 /*Beginning header block*/
 #header {
@@ -93,7 +93,6 @@
     background-image: url("../images/peopleBg.jpg");
     background-repeat: no-repeat;
     background-position: 66px 42px;
-    z-index: 2;
 }
 
 #peoplefoto {
@@ -104,23 +103,8 @@
     height: 404px;
     left: 595px ;
     top: 0;
-    outline: 1px solid #cc0000;
-    z-index: 3;
-}
-
-#people h1 {
-    font: bold 20px Arial, sans-serif;
-    text-transform: uppercase;
-    color: #1d1e1b;
-    padding-top: 213px;
-    padding-left: 113px;
-}
-
-#people p {
-    font: 14px Arial, sans-serif;
-    color: #2c789c;
-    padding-top: 28px;
-    padding-left: 116px;
+    outline: 0px solid #cc0000;
+    z-index: 5;
 }
 
 #peopleBg {
@@ -131,7 +115,101 @@
     left: 0;
     background-image: url("../images/forpeopleBg.png");
     background-repeat: repeat-y;
-    outline: 1px solid #ccff00;
-    z-index: 1;
+    outline: 0px solid #ccff00;
+    z-index: 3;
+}
+
+#slogan {
+    position: absolute;
+    left: 101px;
+    top: 204px;
+    width: 345px;
+    height: 66px;
+    outline: 0px solid #33ffff;
+}
+
+#slogan h1 {
+    font: bold 23px Arial, sans-serif;
+    text-transform: uppercase;
+    color: #1d1e1b;
+    padding-top: 10px;
+    padding-left: 13px;
+}
+
+#slogan p {
+    font: 18px Arial, sans-serif;
+    color: #2c789c;
+    text-align: right;
+    padding-right: 56px;
+    /*padding-bottom: 24px;*/
+}
+/*End of people*/
+/*Begin colors*/
+#colors {
+    outline: 1px solid #ffcc00;
+    background-image: url("../images/colorsBg.png");
+    background-repeat: repeat-y;
+    padding: 0 49px 0 42px;
+}
+
+#blue {
+    width: 292px;
+    height: 147px;
+    float: left;
+    background-color: #2c789c;
+    background-image: url("../images/blueimg.png");
+    background-repeat: no-repeat;
+    background-position: ;
+    padding-left: 14px;
+}
+
+#yellow {
+    width: 302px;
+    height: 147px;
+    float: left;
+    background-color: #e5b00d;
+    padding-left: 19px;
+}
+
+#green {
+    width: 282px;
+    height: 147px;
+    float: left;
+    background-color: #97ba15;
+    padding-left: 24px;
+}
+
+#blue, #yellow, #green {
+    padding-top: 13px;
+    color: #ffffff;
+    position: relative;
+}
+
+#colors h2 {
+    font: bold 19px Arial, sans-serif;
+    padding-bottom: 10px;
+}
+
+#colors p {
+    font:  16px Arial, sans-serif;
+    padding-bottom: 10px;
+}
+
+#colors a {
+    font:  16px Arial, sans-serif;
+    color: #525252;
+    text-decoration: none;
+    width: 99px;
+    height: 26px;
+    display: block;
+    background-image: url("../images/readMore.png");
+    background-repeat: no-repeat;
+    cursor: pointer;
+    padding-left: 11px;
+    padding-top: 4px;
+}
+
+#clear {
+    clear: both;
 }
 
